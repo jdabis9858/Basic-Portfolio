@@ -1,9 +1,52 @@
+* {
+    background-color: gray;
+}
+
 header {
     border-style: solid;
+    padding-left: 50px;
+    background-color: teal;
+}
+
+#hd {
+    background-color: teal;
     
 }
 
 #about {
     float: right;
-    position: relative;
+    position: fixed;
+    right: 50px;
+    top: 45px;
+}
+
+#box {
+    border-style: solid;
+    margin: 30px 100px 30px 100px;
+    padding: 30px 30px 30px 30px;
+}
+
+#hd2 {
+    margin-left: 30px;
+
+}
+
+#imgtxt {
+   
+}
+
+#img1 {
+    margin-left: 30px;
+}
+
+#txt {
+    
+    width: 50%;
+    float: right;
+    margin-right: 30px;
+    line-height: 120%
+}
+
+footer {
+    text-align: center;
 }
