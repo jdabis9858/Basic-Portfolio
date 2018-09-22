@@ -1,52 +1,77 @@
 * {
-    background-color: gray;
+    background-image: url("../pimages/halftone-yellow/halftone-yellow.png");
+    background-color: #dddddd;
 }
 
 header {
-    border-style: solid;
+    border-style: outset;
     padding-left: 50px;
-    background-color: teal;
+    background-color: white;
+    background-image: url(../pimages/halftone-yellow/halftone-yellow.png);
 }
 
 #hd {
-    background-color: teal;
-    
+    color: #ffffff;
+    width: 17%;
+    border-style: solid;
+    border-color: #4aaaa5;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 22px;
+    left: 50px;
 }
 
 #about {
+    color: #777777;
+    background-color: white;
     float: right;
     position: fixed;
     right: 50px;
-    top: 45px;
+    top: 60px;
 }
 
 #box {
-    border-style: solid;
+    background-color: white;
+    border-style: outset;
+    border-color: #cccccc;
     margin: 30px 100px 30px 100px;
     padding: 30px 30px 30px 30px;
 }
 
 #hd2 {
+    background-color: white;
     margin-left: 30px;
+    color: #4aaaa5;
+
 
 }
 
 #imgtxt {
+    background-color: white;
    
 }
 
 #img1 {
+    background-color: white;
     margin-left: 30px;
 }
 
 #txt {
-    
+    background-color: white;
     width: 50%;
     float: right;
     margin-right: 30px;
-    line-height: 120%
+    line-height: 120%;
+    color: #777777;
 }
 
 footer {
     text-align: center;
+    border-top-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+    padding-top: 64px;
+    background-color: #666666;
+    color: white;
+
 }
