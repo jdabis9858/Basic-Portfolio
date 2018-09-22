@@ -11,6 +11,7 @@ header {
 }
 
 #hd {
+    text-align: center;
     color: #ffffff;
     width: 17%;
     border-style: solid;
@@ -39,11 +40,15 @@ header {
 }
 
 #hd2 {
+    position: relative; 
     background-color: white;
     margin-left: 30px;
     color: #4aaaa5;
-
-
+    bottom: 30px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    padding-bottom: 15px;
+    
 }
 
 #imgtxt {
